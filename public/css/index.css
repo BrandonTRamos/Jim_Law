@@ -5,7 +5,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    margin: 45px;
+    /* margin: 35px; */
     padding: 0;
     background: #161616;
 }
@@ -17,19 +17,21 @@ body{
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
+    width: 100%
 }
 
 h1{
     color: #FFF;
-    font-weight: 200;
-    font-size: 7rem;
+    
+    font-size: 5rem;
+    width: 100%;
 }
 
 h2{
     font-size: 3.4em;
-    letter-spacing: -0.025em;
-    font-weight: 200;
+   
     color: #777;
+    width: 100%;
 }
 
 p{
@@ -50,7 +52,7 @@ p{
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    width: 100%;
 }
 
 .pointer {
