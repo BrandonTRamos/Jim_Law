@@ -11,7 +11,7 @@ app.get('/', function(req, res){
 
 app.post("/contact", function(req,res){
   console.log("Post Recieved.")
-  res.sendFile(path.join(__dirname + '/public/thankyou.html'));
+  res.status(200).send("Success")
 })
 
 
