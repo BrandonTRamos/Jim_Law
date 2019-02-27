@@ -30,8 +30,12 @@ $("#content").show();
 }
 
 function loadContact(){
-    $("#content").empty();
-    $("#content").append(`<section>
+    // $("#content").empty();
+var content = document.getElementById("content");
+while (content.firstChild) {
+    content.removeChild(content.firstChild);
+}
+content.innerHTML=`<section>
     <header align="center">
         <h2>Contact Us</h2><br>
     </header>
@@ -62,9 +66,9 @@ function loadContact(){
     <p><strong>Phone:</strong> 732-505-8808 <br>
     <strong>Fax:</strong> 866-251-1621</p>
 </div>
-</section>`);
-$("#content").show();
-$("#submit").click(function(){
+</section>`;
+// $("#content").show();
+document.getElementById("submit").onclick=function(){
     console.log("Posted")
     var name= $("#name").val()
     console.log(name)
@@ -77,7 +81,7 @@ $("#submit").click(function(){
             console.log(data)
             loadThankYou()
         });
-})
+}
 
 }
 
