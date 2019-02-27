@@ -11,7 +11,11 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous">
+		</script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-panels.min.js"></script>
 		<script src="js/init.js"></script>
@@ -30,10 +34,10 @@
 				<!-- Nav -->
 				<nav id="nav">
 					<ul>
-						<li onclick="loadHome()"><a href="#">Home</a></li>
-						<li><a href="#">Profile</a></li>
-						<li onclick="loadContact()"><a href="#">Resources</a></li>
-						<li class="active" onclick="loadContact()"><a href="#">Contact</a></li>
+						<li id="home"><a href="#">Home</a></li>
+						<li id="profile"><a href="#">Profile</a></li>
+						<li id="resources"><a href="#">Resources</a></li>
+						<li class="active" id="contact"><a href="#">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
