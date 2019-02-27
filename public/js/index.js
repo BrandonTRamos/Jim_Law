@@ -26,6 +26,7 @@ function loadHome(){
     <p><strong>Phone:</strong> 732-505-8808 <br>
     <strong>Fax:</strong> 866-251-1621</p>
 </section>`
+$("#content").show();
 }
 
 function loadContact(){
@@ -62,6 +63,7 @@ function loadContact(){
     <strong>Fax:</strong> 866-251-1621</p>
 </div>
 </section>`);
+$("#content").show();
 $("#submit").click(function(){
     console.log("Posted")
     var name= $("#name").val()
@@ -102,6 +104,7 @@ function loadThankYou(){
     <p><strong>Phone:</strong> 732-505-8808 <br>
     <strong>Fax:</strong> 866-251-1621</p>
 </section>`;
+$("#content").show();
 }
 
 
