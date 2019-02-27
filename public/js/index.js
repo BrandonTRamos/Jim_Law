@@ -51,7 +51,7 @@ $(document).ready(function(){
             <input type="text" id="phone" size="30" required><br>
             <strong><label for="message">Message:</label></strong><br>
             <textarea name="message" id="message" cols="50" rows="10" required></textarea><br>
-           <button id="submit">Submit Button</button>
+           <button  class ="button" id="submit">Submit</button>
         
     </div>
     <div align="center">

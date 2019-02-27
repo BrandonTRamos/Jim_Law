@@ -56,13 +56,13 @@
 		font-style: italic;
 	}
 
-	a
+	li
 	{
 		text-decoration: none;
 		color: #80BA8E;
 	}
 	
-	a:hover
+	li:hover
 	{
 		text-decoration: underline;
 	}
