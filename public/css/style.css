@@ -56,13 +56,13 @@
 		font-style: italic;
 	}
 
-	li
+	a
 	{
 		text-decoration: none;
 		color: #80BA8E;
 	}
 	
-	li:hover
+	a:hover
 	{
 		text-decoration: underline;
 	}
@@ -386,7 +386,7 @@
 				border-right: none;
 			}
 
-			#nav > ul > li > a,
+			#nav > ul > li > p,
 			#nav > ul > li > span
 			{
 				display: inline-block;
@@ -399,7 +399,7 @@
 				color: #FFF;
 			}
 
-			#nav li.active a
+			#nav li.active p
 			{
 				color: #FFF;
 			}
