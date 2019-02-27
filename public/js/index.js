@@ -68,6 +68,8 @@ content.innerHTML=`<section>
 </div>
 </section>`;
 // $("#content").show();
+content.style.display = 'none';
+content.style.display = 'block';
 document.getElementById("submit").onclick=function(){
     console.log("Posted")
     var name= $("#name").val()
