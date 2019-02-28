@@ -17,7 +17,7 @@ body{
 {
     position: relative;
     background: url(../images/legal.jpg) no-repeat;
-    background-size: auto;
+    background-size: 100% 100%;
     background-position: center center;
     text-align: center;
 }
