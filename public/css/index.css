@@ -18,7 +18,7 @@ body{
     position: relative;
     background: url(../images/legal.jpg) no-repeat center center ;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: contain;
     text-align: center;
 }
 
