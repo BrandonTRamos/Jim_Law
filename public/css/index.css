@@ -17,6 +17,7 @@ body{
 {
     position: relative;
     background: url(../images/legal.jpg) no-repeat;
+    background-attachment: fixed;
     background-size: 100% 100%;
     background-position: center center;
     text-align: center;
@@ -64,21 +65,10 @@ p{
 {
     position: relative;
     text-align: center;
-    background: url(../images/legal.jpg) no-repeat center center;
-    /* background-attachment: fixed;
+    background: url(../images/legal.jpg) no-repeat;
+    background-attachment: fixed;
     background-size: 100% 100%;
-    max-width: 100%;
-    height: auto;
-    width: auto; */
-    background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height:100%;
-    width:100%; 
+    background-position: center center;
     padding: 6rem 0rem;
 }
 
