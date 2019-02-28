@@ -1,8 +1,7 @@
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
 
 
-html{height:100%;
-    width:100%;}
+
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -21,6 +20,9 @@ body{
     background-position: center center;
     text-align: center;
 }
+
+
+
 
 h1{
     color: #FFF;
@@ -59,6 +61,11 @@ p{
 .pointer {
     cursor: pointer;
 }
+
+.center {
+    margin: auto;
+    width: 50%;
+  }
 
 #quote
 {
@@ -140,5 +147,73 @@ p{
     }
     
     .opaque {
-        opacity: 0.5;
+        opacity: 0.4;
       }
+
+
+ @media(min-width:400px){
+
+    body{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    h1{
+        color: #FFF;
+        font-size: 6rem;
+        width: 100%;
+    }
+    
+    h2{
+        font-size: 3rem;
+        color: #777;
+        width: 100%;
+    }
+    
+    p{
+        font-size: 1rem;
+        color: #777;
+    }
+
+
+
+
+    #header
+{
+    position: relative;
+    background: url(../images/legal.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    background-position: center;
+    text-align: center;
+}
+
+
+#navItems li{
+    font-size: 2rem;
+
+}
+
+    #quote
+    {
+        position: relative;
+        text-align: center;
+        background: url(../images/legal.jpg) no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        background-position: center center;
+        padding: 6rem 0rem;
+    }
+
+    #quote blockquote
+    {
+        position: relative;
+        border: none;
+        margin: 0;
+        font-weight: 300;
+        color: rgba(255,255,255,.6);
+        font-size: 2rem;
+    }
+ }     
