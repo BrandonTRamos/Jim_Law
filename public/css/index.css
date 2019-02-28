@@ -16,10 +16,9 @@ body{
 #header
 {
     position: relative;
-    background: url(../images/legal.jpg) no-repeat center center ;
-    background-attachment: fixed;
+    background: url(../images/legal.jpg) no-repeat;
     background-size: auto;
-    background-position: center top;
+    background-position: center center;
     text-align: center;
 }
 
