@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    font-size : 16px;
     /* margin: 35px; */
     padding: 0;
     background: #161616;
@@ -16,36 +17,35 @@ body{
     position: relative;
     background: url(../images/legal.jpg) no-repeat bottom center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100% 100%;
     text-align: center;
     width: 100%
 }
 
 h1{
     color: #FFF;
-    
     font-size: 5rem;
     width: 100%;
 }
 
 h2{
-    font-size: 3.4em;
-   
+    font-size: 1.5rem;
     color: #777;
     width: 100%;
 }
 
 p{
+    font-size: .75rem;
     color: #777;
 }
 
 #byline{
-    font-size: 1.4em;
+    font-size: 1.4rem;
     color: #FFF;
 }
 
 #main {
-    padding: 6em 0em;
+    padding: 6rem 0rem;
     position: relative;
     background: #fff;
 }
@@ -67,7 +67,7 @@ p{
     background: url(../images/legal.jpg) no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
-    padding: 6em 0em;
+    padding: 6rem 0rem;
 }
 
     #quote:before
@@ -95,14 +95,14 @@ p{
         margin: 0;
         font-weight: 300;
         color: rgba(255,255,255,.6);
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
 	#footer
 	{
 		position: relative;
         text-align: center;
-        padding: 6em 0em;
+        padding: 6rem 0rem;
 	}
 	
 	#footer header h2
@@ -119,9 +119,9 @@ p{
 		position: relative;
 		display: inline-block;
 		background: #80BA8E;
-		padding: 0.8em 2em;
+		padding: 0.8rem 2rem;
 		text-decoration: none !important;
-		font-size: 1.2em;
+		font-size: 1.2rem;
 		font-weight: 300;
 		color: #FFF !important;
 		-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
@@ -130,7 +130,7 @@ p{
 		-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
 		transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
 		text-align: center;
-		border-radius: 0.25em;
+		border-radius: 0.25rem;
 	}
 
 	.button:hover
