@@ -15,7 +15,7 @@ body{
 #header
 {
     position: relative;
-    background: url(../images/legal.jpg) no-repeat bottom center;
+    background: url(../images/legal.jpg) no-repeat ;
     background-attachment: fixed;
     background-size: 100% 100%;
     text-align: center;
@@ -24,7 +24,7 @@ body{
 
 h1{
     color: #FFF;
-    font-size: 5rem;
+    font-size: 4.5rem;
     width: 100%;
 }
 
