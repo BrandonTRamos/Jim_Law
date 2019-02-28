@@ -19,9 +19,6 @@ body{
     background-attachment: fixed;
     background-size: 100% 100%;
     text-align: center;
-    max-width: 100%;
-    height: auto;
-    width: auto;
 }
 
 h1{
@@ -67,11 +64,20 @@ p{
     position: relative;
     text-align: center;
     background: url(../images/legal.jpg) no-repeat center center;
-    background-attachment: fixed;
+    /* background-attachment: fixed;
     background-size: 100% 100%;
     max-width: 100%;
     height: auto;
-    width: auto;
+    width: auto; */
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    width:100%; 
     padding: 6rem 0rem;
 }
 
