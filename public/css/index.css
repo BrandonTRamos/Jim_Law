@@ -19,7 +19,7 @@ body{
     background: url(../images/legal.jpg) no-repeat center center ;
     background-attachment: fixed;
     background-size: contain;
-    background-position: center;
+    background-position: center center;
     text-align: center;
 }
 
